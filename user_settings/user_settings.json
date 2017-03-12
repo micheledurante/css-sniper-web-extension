@@ -1,0 +1,13 @@
+{
+  "locations": [
+    {
+      "jsonlint.com":
+      {
+        "global": {
+          "isglobal": true,
+          "stylesheet": "jsonlint.com.css"
+        }
+      }
+    }
+  ]
+}
