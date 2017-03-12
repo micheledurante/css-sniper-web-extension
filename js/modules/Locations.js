@@ -1,0 +1,3 @@
+var Locations = function () {
+    alert();
+};

@@ -3,18 +3,21 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "Be your own style master on the wild-wild-web.",
-  "homepage_url": "http://micheledurante/css-sniper-webextension",
+  "homepage_url": "http://micheledurante.co.uk/css-sniper-webextension",
   "author": "Michele Durante",
   "icons": {
-    "16": "icons/css-sniper16x16.png",
-    "19": "icons/css-sniper19x19.png",
-    "48": "icons/css-sniper48x48.png",
-    "128": "icons/css-sniper128x128.png"
+    "16": "icons/css-sniper16x16-green.png",
+    "19": "icons/css-sniper19x19-green.png",
+    "32": "icons/css-sniper32x32-green.png",
+    "48": "icons/css-sniper48x48-green.png",
+    "96": "icons/css-sniper96x96-green.png",
+    "128": "icons/css-sniper128x128-green.png"
   },
   "content_scripts": [
     {
-      "matches": ["*://*.jsonlint.com/*"],
-      "js": ["js/jsonlint.js"]
+      "all_frames": true,
+      "matches": ["<all_urls>"],
+      "js": ["js/modules/Locations.js","js/init.js"]
     }
   ]
 }
