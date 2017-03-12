@@ -5,8 +5,9 @@
   "description": "Be your own style master on the wild-wild-web.",
   "homepage_url": "http://micheledurante/css-sniper-webextension",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "icons/css-sniper16x16.png",
+    "19": "icons/css-sniper19x19.png",
+    "48": "icons/css-sniper48x48.png",
+    "128": "icons/css-sniper128x128.png"
   }
 }
